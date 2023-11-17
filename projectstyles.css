@@ -1,0 +1,226 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #eafdfc; /* Background color for the entire body */
+    text-align: center
+  
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(200, 231, 248, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.654);
+    border-radius: 100px;
+}
+
+header {
+    background-color: #9EF2FF;
+    color: #181515;
+    padding: 10px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #325193; /* Add a 2px solid border at the bottom with a color of your choice */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Adjust margin between logo and text */
+}
+
+
+/* Header Title Styles */
+.header-title h1 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 28px;
+    color: #000;
+}
+
+.header-title2 h1 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 28px;
+    margin-left: 435px;
+    color: #000;
+}
+
+
+
+
+
+main {
+    
+    padding: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+
+.project-section1 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: #D7D3FF;
+    margin: 35px;
+    margin-top: 90px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-section1 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.project-section2 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: #FAA8BF;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-section2 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.project-section3 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: #CBE3FF;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-section3 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.project-section4 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: #D1EAE9;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-section4 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.project-section5 {
+    font-family: 'Poiret One', sans-serif;
+    background-color: #D7F1D2;
+    margin: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-section5 img {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+
+.project-section h2 {
+    color: #333;
+    font-family: 'Poiret One', sans-serif;
+}
+
+
+
+
+
+
+
+.abstract {
+    color: #000000;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-family: 'Exo 2', sans-serif;
+}
+.completion-date {
+    color: #000000;
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    transition: border-bottom-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    border-bottom-color: #cc3d3d;
+}
+
+
+
